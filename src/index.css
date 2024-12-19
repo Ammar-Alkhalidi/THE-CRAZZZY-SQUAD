@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+img {
+  margin-top: 20px;
+  border: 2px solid #fff;
+}
+.fade-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
